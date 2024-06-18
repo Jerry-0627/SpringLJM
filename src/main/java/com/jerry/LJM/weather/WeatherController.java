@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class WeatherController {
 
 	@RequestMapping("/weather/list")
-	public String getList(HttpServletRequest request) {
+	public String getList() {
 		System.out.println("weather list");
 			
 		return "weather/list";
